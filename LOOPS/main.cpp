@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using std::endl;
 using std::cin;
@@ -19,7 +19,7 @@ void main()
 
 #ifdef while1
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî èòåðàöèé" << endl; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¹" << endl; cin >> n;
 	while (n)
 	{
 		cout << n << "\t";
@@ -30,7 +30,7 @@ void main()
 #endif // while1
 #ifdef POLINDROME
 	int number, reverse = 0;
-	cout << "Ââåäèòå ÷èñëî: " << endl; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: " << endl; cin >> number;
 	int buffer = number;
 	while (buffer)
 	{
@@ -43,16 +43,16 @@ void main()
 	cout << reverse << endl;
 	if (reverse == number)
 	{
-		cout << "×èñëî ïîëèíäðîì!!!";
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð¿Ð¾Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼!!!";
 	}
 	else 
 	{
-		cout << "Ýòî îáû÷íîå ÷èñëî";
+		cout << "Ð­Ñ‚Ð¾ Ð¾Ð±Ñ‹Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾";
 	}
 #endif
 #ifdef for1
 	long long int n, f=1;
-	cout << "Ââåäèòå ÷èñëî: " << endl; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: " << endl; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		cout << i << "!= ";
@@ -64,8 +64,8 @@ void main()
 #ifdef for2
 	double a, N = 1;
 	int n;
-	cout << "Ââåäèòå îñíîâàíèå ñòåïåíè: "; cin >> a;
-	cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> n;
 	if(n<0)
 	{
 		a = 1 / a;
@@ -88,7 +88,7 @@ void main()
 #endif
 #ifdef finonachi
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int a = 0,b=1,c=a+b; a < n; a=b,b=c,c=a+b)
 	{
 		cout << a << "\t";
@@ -97,7 +97,7 @@ void main()
 #endif
 #ifdef finonachi2
 	int n;
-	cout << "Ââåäèòå  ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ  Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int a = 0, b = 1, c = a + b; a < n;  a = b, b = c, c = a + b)
 	{
 		cout << a << "\t";
@@ -106,7 +106,7 @@ void main()
 #endif 
 #ifdef EASYNUMBERS
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîå ÷èñëî:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> n;
 	for (int i = 2; i < n; i++)
 	{
 		bool simple = true;
