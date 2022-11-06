@@ -1,6 +1,6 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
-//#define MULTIPLICATION_TABLE
+#define MULTIPLICATION_TABLE
 void main()
 {
 	setlocale(LC_ALL, "");
@@ -13,5 +13,5 @@ void main()
 		}
 	}
 #endif
-#ifdef
+
 }
